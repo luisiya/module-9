@@ -1,0 +1,459 @@
+*{
+      margin:0;
+      padding:0;
+}
+
+
+ body{
+      
+      font-family: arial, Trebuchet, sans-serif;
+      font-size:16px;
+      color:#263555;
+      background: url(../img/main-bg.jpg) 50% 0 no-repeat;
+     
+
+ }
+
+
+
+.wrapper{
+ 
+      width:1024px;
+ 
+ 
+      margin-left:auto;
+      margin-right:auto;
+
+     
+
+}
+
+
+.clearfix::after{
+     content: "";
+     display: table;
+     clear: both;
+}
+
+
+li{
+     list-style:none;
+  
+
+}
+
+a{
+     color:inherit;
+     text-decoration: none;
+}
+
+nav li{
+      float:left;
+      margin-left:40px;
+
+      padding-left:10px;
+      height:90px;
+      width:90px;
+      padding-top:10px;
+      color:white;
+}
+
+
+
+.logo{
+  
+     position:relative;
+ 
+     right:24px;
+     bottom:70px;
+}
+
+.list li{
+     clear:both;
+     color:black;
+     padding-top:10px;
+  
+     font-size:12px;
+     position:relative;
+     right:50px;
+     bottom:5px;
+     position:relative;
+     z-index:2;
+     text-align:center;
+     height:25px;
+     width:35px;
+}
+
+.list li:hover{
+    color:grey;
+}
+
+nav li:hover{
+    color:black;
+}
+
+.list{
+   opacity: 0;  
+}
+
+.main-list:hover .list{
+   opacity: 1;  
+} 
+
+.border-corner {
+      background: white;
+      border-radius: 5px;
+      border-top: 3px solid white;
+      -moz-border-radius: 5px;
+      position: absolute;
+      padding: 5px;
+      width: 55px;
+
+      margin-top: 10px;
+
+
+}
+ 
+.border-corner:before {
+      content: '';
+      border: 6px solid transparent;
+      border-bottom: 6px solid white;
+      position: absolute;
+      left: 58%;
+      margin-left: -12px;
+      top: -14px;
+      width: 0;
+}
+
+nav{
+     padding-bottom:20px;
+     padding-top:60px;
+     padding-left:20px;
+
+
+}
+
+
+main{
+    margin-top:40px;
+    background:white;
+ 
+    padding:0px 40px 40px 40px;
+}
+
+
+nav::before{
+    content:"\2190 \00A0 \00A0 \2192";     
+    color:white;
+    margin-right:5px;
+    position: relative;
+    border-radius: 100px;
+    background-color: #5ecaf2;
+    width:70px;
+    height:70px;
+    text-align:center;
+    display:inline-block;
+    top:800px;
+    left:80px;
+    line-height:4;
+ 
+   
+
+}
+
+.first-pic::before{
+    content:"THERE ARE PLENTY OF PLACES";     
+    color:#4e5050;
+    position: relative;
+    background-color: white;
+    width:240px;
+    height:64px;
+    display:inline-block;
+    border-radius: 0;
+    top:290px;
+    font-stretch: ultra-condensed;
+    font-weight: bold;
+    font-size:17px;
+    text-align:center;
+    line-height:60px;
+}
+
+.first-pic::after{
+    content:"THAT ARE WORTH SEEING";     
+    color:white;
+    position: relative;
+    background-color: #5ecaf2;
+    width:300px;
+    height:74px;
+    display:inline-block;
+    border-radius: 0;
+    bottom:320px;
+    font-stretch: ultra-condensed;
+    font-weight: bold;
+    font-size:26px;
+    text-align:center;
+    line-height:70px;
+}
+
+article{
+   float:left;
+   margin-right:26.5px;
+   padding-top:30px;
+
+ 
+}
+section{
+  position: relative;
+  display:flex;
+  justify-content:space-around;
+  align-items: center;
+
+}
+.text-on-img{
+    position:absolute;
+    width:140px;
+    height:254px;
+    bottom:5px;
+    background-color:#0B2F3A;
+    text-align:justify;
+    padding:8px;
+    color:white;
+    opacity:0;
+
+
+
+  }
+
+.text-on-img:hover{
+   opacity:1;
+}
+
+
+article p{
+   margin-top:10px;
+   font-size:11px;
+}
+
+article h4{
+   text-align:center;
+}
+
+article button{
+   float:right;
+   display:inline-block;
+   margin-top:10px;
+ 
+}
+
+
+
+
+
+
+
+.photo-trip{
+    width:30%;
+    display:inline-block;
+    box-sizing: border-box;
+}
+.about-trip{
+    width:65%;
+    box-sizing:border-box;
+    display:inline-block;
+    margin-bottom:5px;
+}
+
+
+.all-trip{
+   float:left; 
+   border:solid grey 1px;
+
+}
+
+.aside1 h3{
+    width:140px;
+    padding-bottom:5px;
+    line-height:2;
+    padding-left:5px;
+}
+
+.aside1 h3:hover{
+     background-color:#F2F2F2;
+}
+
+
+.aside2 h3{
+    border-bottom:solid grey 1px;
+    border-right:none;
+    height:10px;
+    text-align:center;
+    background-color:#FAFAFA;
+    padding-bottom:30px;
+    line-height:2;
+}
+
+.aside2 h3:hover{
+  background-color:#F2F2F2;
+}
+.about-trip a{
+    color:black;
+}
+.about-trip button{
+    display:inline-block;
+    float:right;
+    margin-bottom:10px;
+    border-radius:2px;
+    width:80px;
+}
+
+
+.about-trip p, h4{
+    margin-top:20px;
+}
+
+.photo-trip{
+    margin-left:20px;
+    margin-right:0;
+}
+
+.aside2 li::before{
+    content:">";
+    color:white;     
+    background-color:#5ecaf2;
+    margin-right:5px;
+    border-radius:100px;
+    width:20px;
+    height:20px;
+    display:inline-block;
+    text-align:center;
+    margin-top:10px;
+    margin-left:10px;
+
+}
+
+.aside2 li:hover{
+   color:#A4A4A4;
+}
+
+.aside2 ul{
+
+    margin-bottom:10px;
+}
+.aside2 form, input{
+   margin-top:20px;
+   margin-left:20px;
+}
+
+.aside2 input{
+  margin-bottom:20px;
+  margin-left:20px;
+}
+aside{
+  display:flex;
+  justify-content:space-between;
+  margin-top:20px;
+  align-items:bottom;
+}
+.aside1{
+   flex:6;
+   padding-right:20px;
+   display:inline-block;
+   box-sizing:border-box;
+   
+  
+}
+.aside2{
+   flex:3;
+   display:inline-block;
+   box-sizing:border-box;
+   border:solid grey 1px;
+  
+   
+  
+}
+
+
+
+.about-trip p a{
+   color:red;
+}
+
+.name-aside h3{
+    width:150px;
+    display:inline-block;
+    border:none;
+    border-right:solid grey 1px;
+    margin-left:5px;
+ 
+
+}
+
+.name-aside h3:nth-child(3){
+  border-right:none;
+}
+.name-aside{
+    float:left;
+    border:solid grey 1px;
+    border-bottom:none;
+    bottom:646px;
+    left:801px;
+    height:42px;
+    line-height: 2;
+
+}
+
+
+.home-buttom{
+  position:fixed;
+  margin-left:900px;
+  margin-top:400px;
+ 
+}
+.but-home{
+    position:absolute;    
+    color:white;   
+    border-radius: 100px;
+    background-color: #5ecaf2;
+    width:30px;
+    height:30px;
+    text-align:center;
+    bottom:1800px;    
+    line-height:2;
+
+}
+
+footer{
+    
+    padding-bottom:50px;
+    padding-top:50px;
+    overflow:hidden;
+    background-color:#0B2F3A;
+   
+    color:grey;
+    font-stretch: ultra-condensed;
+    padding-left:100px;
+}
+
+footer li{
+    float:left;
+    width:200px;
+
+}
+
+footer li:hover{
+    color:white;
+}
+
+.footer-small{
+    background:none;
+    color:white;
+    margin-left:200px;
+    padding-top:5px;
+
+}
+
+.icons-footer{
+    display:inline-block;
+    padding-left:120px;
+    padding-top:10px;
+}
